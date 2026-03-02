@@ -6,7 +6,7 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Goodnews-Game-Dev-Curriculum/", // For GitHub Pages deployment
+  base: "/catch-the-falling-star-logic-app/", // For GitHub Pages deployment
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
